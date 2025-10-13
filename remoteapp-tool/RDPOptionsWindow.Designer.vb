@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class RDPOptionsWindow
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class RDPOptionsWindow
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(RDPOptionsWindow))
@@ -43,11 +43,11 @@ Partial Class RDPOptionsWindow
         'OptionsListBox
         '
         Me.OptionsListBox.FormattingEnabled = True
-        Me.OptionsListBox.ItemHeight = 15
+        Me.OptionsListBox.ItemHeight = 41
         Me.OptionsListBox.Location = New System.Drawing.Point(11, 12)
         Me.OptionsListBox.Margin = New System.Windows.Forms.Padding(2)
         Me.OptionsListBox.Name = "OptionsListBox"
-        Me.OptionsListBox.Size = New System.Drawing.Size(213, 169)
+        Me.OptionsListBox.Size = New System.Drawing.Size(213, 168)
         Me.OptionsListBox.TabIndex = 0
         '
         'DescriptionTextBox
@@ -68,7 +68,7 @@ Partial Class RDPOptionsWindow
         Me.Label1.Location = New System.Drawing.Point(11, 188)
         Me.Label1.Margin = New System.Windows.Forms.Padding(2, 0, 2, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(57, 15)
+        Me.Label1.Size = New System.Drawing.Size(146, 41)
         Me.Label1.TabIndex = 2
         Me.Label1.Text = "设置值："
         '
@@ -79,7 +79,7 @@ Partial Class RDPOptionsWindow
         Me.ValueTextBox.Location = New System.Drawing.Point(72, 185)
         Me.ValueTextBox.Margin = New System.Windows.Forms.Padding(2)
         Me.ValueTextBox.Name = "ValueTextBox"
-        Me.ValueTextBox.Size = New System.Drawing.Size(476, 23)
+        Me.ValueTextBox.Size = New System.Drawing.Size(476, 47)
         Me.ValueTextBox.TabIndex = 3
         '
         'ChangedOptionsListView
@@ -162,7 +162,7 @@ Partial Class RDPOptionsWindow
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(12, 221)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(97, 15)
+        Me.Label2.Size = New System.Drawing.Size(178, 41)
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "已选选项："
         '
@@ -200,7 +200,7 @@ Partial Class RDPOptionsWindow
         'RDPOptionsWindow
         '
         Me.AcceptButton = Me.SaveButton
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(17.0!, 41.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(586, 406)
