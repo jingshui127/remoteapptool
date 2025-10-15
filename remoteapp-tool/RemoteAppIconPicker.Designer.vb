@@ -142,7 +142,7 @@ Partial Class RemoteAppIconPicker
         Me.IconPathTextBox.Location = New System.Drawing.Point(103, 12)
         Me.IconPathTextBox.Name = "IconPathTextBox"
         Me.IconPathTextBox.ReadOnly = True
-        Me.IconPathTextBox.Size = New System.Drawing.Size(267, 23)
+        Me.IconPathTextBox.Size = New System.Drawing.Size(267, 47)
         Me.IconPathTextBox.TabIndex = 1
         '
         'IconIndexTextBox
@@ -151,7 +151,7 @@ Partial Class RemoteAppIconPicker
         Me.IconIndexTextBox.Location = New System.Drawing.Point(420, 12)
         Me.IconIndexTextBox.Name = "IconIndexTextBox"
         Me.IconIndexTextBox.ReadOnly = True
-        Me.IconIndexTextBox.Size = New System.Drawing.Size(67, 23)
+        Me.IconIndexTextBox.Size = New System.Drawing.Size(67, 47)
         Me.IconIndexTextBox.TabIndex = 3
         Me.IconIndexTextBox.Visible = False
         '
@@ -198,7 +198,7 @@ Partial Class RemoteAppIconPicker
         Me.FileTypeLabel.AutoSize = True
         Me.FileTypeLabel.Location = New System.Drawing.Point(12, 197)
         Me.FileTypeLabel.Name = "FileTypeLabel"
-        Me.FileTypeLabel.Size = New System.Drawing.Size(66, 15)
+        Me.FileTypeLabel.Size = New System.Drawing.Size(185, 41)
         Me.FileTypeLabel.TabIndex = 5
         Me.FileTypeLabel.Text = "文件类型：."
         Me.FileTypeLabel.Visible = False
@@ -208,7 +208,7 @@ Partial Class RemoteAppIconPicker
         Me.FileTypeTextBox.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.FileTypeTextBox.Location = New System.Drawing.Point(76, 194)
         Me.FileTypeTextBox.Name = "FileTypeTextBox"
-        Me.FileTypeTextBox.Size = New System.Drawing.Size(80, 23)
+        Me.FileTypeTextBox.Size = New System.Drawing.Size(80, 47)
         Me.FileTypeTextBox.TabIndex = 6
         Me.FileTypeTextBox.Text = "xyz"
         Me.FileTypeTextBox.Visible = False
@@ -220,7 +220,7 @@ Partial Class RemoteAppIconPicker
         Me.IconIndexLabel.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.IconIndexLabel.Location = New System.Drawing.Point(376, 15)
         Me.IconIndexLabel.Name = "IconIndexLabel"
-        Me.IconIndexLabel.Size = New System.Drawing.Size(39, 15)
+        Me.IconIndexLabel.Size = New System.Drawing.Size(114, 41)
         Me.IconIndexLabel.TabIndex = 2
         Me.IconIndexLabel.Text = "索引："
         Me.IconIndexLabel.Visible = False
@@ -228,7 +228,7 @@ Partial Class RemoteAppIconPicker
         'RemoteAppIconPicker
         '
         Me.AcceptButton = Me.OKButton
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(17.0!, 41.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.CancelButton = Me.CancelEditButton
@@ -249,7 +249,7 @@ Partial Class RemoteAppIconPicker
         Me.MinimumSize = New System.Drawing.Size(515, 270)
         Me.Name = "RemoteAppIconPicker"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
-        Me.Text = "RemoteApp 图标选择器"
+        Me.Text = " 图标选择器"
         Me.ResumeLayout(False)
         Me.PerformLayout()
 

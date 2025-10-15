@@ -226,9 +226,9 @@ Partial Class RemoteAppMainWindow
         Me.CreateClientConnection.Enabled = False
         Me.CreateClientConnection.ImageIndex = 3
         Me.CreateClientConnection.ImageList = Me.SmallerIcons
-        Me.CreateClientConnection.Location = New System.Drawing.Point(214, 223)
+        Me.CreateClientConnection.Location = New System.Drawing.Point(133, 216)
         Me.CreateClientConnection.Name = "CreateClientConnection"
-        Me.CreateClientConnection.Size = New System.Drawing.Size(208, 30)
+        Me.CreateClientConnection.Size = New System.Drawing.Size(289, 51)
         Me.CreateClientConnection.TabIndex = 6
         Me.CreateClientConnection.Text = "创建客户端连接..."
         Me.CreateClientConnection.TextAlign = System.Drawing.ContentAlignment.MiddleRight
@@ -240,6 +240,7 @@ Partial Class RemoteAppMainWindow
         Me.ToolsMenuStrip.AllowMerge = False
         Me.ToolsMenuStrip.AutoSize = False
         Me.ToolsMenuStrip.BackColor = System.Drawing.Color.Transparent
+        Me.ToolsMenuStrip.GripMargin = New System.Windows.Forms.Padding(2, 2, 0, 2)
         Me.ToolsMenuStrip.ImageScalingSize = New System.Drawing.Size(20, 20)
         Me.ToolsMenuStrip.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.FileToolStripMenuItem, Me.ToolsToolStripMenuItem, Me.HelpToolStripMenuItem})
         Me.ToolsMenuStrip.Location = New System.Drawing.Point(0, 0)
@@ -252,84 +253,84 @@ Partial Class RemoteAppMainWindow
         '
         Me.FileToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NewRemoteAppadvancedToolStripMenuItem, Me.DuplicateToolStripMenuItem, Me.ToolStripSeparator2, Me.ExitToolStripMenuItem})
         Me.FileToolStripMenuItem.Name = "FileToolStripMenuItem"
-        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(37, 20)
+        Me.FileToolStripMenuItem.Size = New System.Drawing.Size(101, 20)
         Me.FileToolStripMenuItem.Text = "文件"
         '
         'NewRemoteAppadvancedToolStripMenuItem
         '
         Me.NewRemoteAppadvancedToolStripMenuItem.Name = "NewRemoteAppadvancedToolStripMenuItem"
-        Me.NewRemoteAppadvancedToolStripMenuItem.Size = New System.Drawing.Size(235, 22)
+        Me.NewRemoteAppadvancedToolStripMenuItem.Size = New System.Drawing.Size(532, 54)
         Me.NewRemoteAppadvancedToolStripMenuItem.Text = "新建 RemoteApp (高级)..."
         '
         'DuplicateToolStripMenuItem
         '
         Me.DuplicateToolStripMenuItem.Name = "DuplicateToolStripMenuItem"
-        Me.DuplicateToolStripMenuItem.Size = New System.Drawing.Size(235, 22)
+        Me.DuplicateToolStripMenuItem.Size = New System.Drawing.Size(532, 54)
         Me.DuplicateToolStripMenuItem.Text = "复制 RemoteApp"
         '
         'ToolStripSeparator2
         '
         Me.ToolStripSeparator2.Name = "ToolStripSeparator2"
-        Me.ToolStripSeparator2.Size = New System.Drawing.Size(232, 6)
+        Me.ToolStripSeparator2.Size = New System.Drawing.Size(529, 6)
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(235, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(532, 54)
         Me.ExitToolStripMenuItem.Text = "退出"
         '
         'ToolsToolStripMenuItem
         '
         Me.ToolsToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.HostOptionsToolStripMenuItem, Me.ToolStripSeparator3, Me.RemoveUnusedFileTypeAssociationsToolStripMenuItem, Me.BackupAllRemoteAppsToolStripMenuItem})
         Me.ToolsToolStripMenuItem.Name = "ToolsToolStripMenuItem"
-        Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(46, 20)
+        Me.ToolsToolStripMenuItem.Size = New System.Drawing.Size(138, 20)
         Me.ToolsToolStripMenuItem.Text = "工具(&T)"
         '
         'HostOptionsToolStripMenuItem
         '
         Me.HostOptionsToolStripMenuItem.Name = "HostOptionsToolStripMenuItem"
-        Me.HostOptionsToolStripMenuItem.Size = New System.Drawing.Size(280, 22)
+        Me.HostOptionsToolStripMenuItem.Size = New System.Drawing.Size(563, 54)
         Me.HostOptionsToolStripMenuItem.Text = "主机选项..."
         '
         'ToolStripSeparator3
         '
         Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(277, 6)
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(560, 6)
         '
         'RemoveUnusedFileTypeAssociationsToolStripMenuItem
         '
         Me.RemoveUnusedFileTypeAssociationsToolStripMenuItem.Name = "RemoveUnusedFileTypeAssociationsToolStripMenuItem"
-        Me.RemoveUnusedFileTypeAssociationsToolStripMenuItem.Size = New System.Drawing.Size(280, 22)
+        Me.RemoveUnusedFileTypeAssociationsToolStripMenuItem.Size = New System.Drawing.Size(563, 54)
         Me.RemoveUnusedFileTypeAssociationsToolStripMenuItem.Text = "删除未使用的文件类型关联..."
         '
         'BackupAllRemoteAppsToolStripMenuItem
         '
         Me.BackupAllRemoteAppsToolStripMenuItem.Name = "BackupAllRemoteAppsToolStripMenuItem"
-        Me.BackupAllRemoteAppsToolStripMenuItem.Size = New System.Drawing.Size(280, 22)
+        Me.BackupAllRemoteAppsToolStripMenuItem.Size = New System.Drawing.Size(563, 54)
         Me.BackupAllRemoteAppsToolStripMenuItem.Text = "备份所有 RemoteApp..."
         '
         'HelpToolStripMenuItem
         '
         Me.HelpToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.WebsiteToolStripMenuItem, Me.ToolStripSeparator1, Me.AboutToolStripMenuItem})
         Me.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem"
-        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(44, 20)
+        Me.HelpToolStripMenuItem.Size = New System.Drawing.Size(144, 20)
         Me.HelpToolStripMenuItem.Text = "帮助(&H)"
         '
         'WebsiteToolStripMenuItem
         '
         Me.WebsiteToolStripMenuItem.Name = "WebsiteToolStripMenuItem"
-        Me.WebsiteToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.WebsiteToolStripMenuItem.Size = New System.Drawing.Size(263, 54)
         Me.WebsiteToolStripMenuItem.Text = "网站"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(113, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(260, 6)
         '
         'AboutToolStripMenuItem
         '
         Me.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem"
-        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.AboutToolStripMenuItem.Size = New System.Drawing.Size(263, 54)
         Me.AboutToolStripMenuItem.Text = "关于..."
         '
         'PictureBox1
@@ -351,7 +352,7 @@ Partial Class RemoteAppMainWindow
         '
         'RemoteAppMainWindow
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(17.0!, 41.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.ClientSize = New System.Drawing.Size(434, 261)
@@ -369,7 +370,7 @@ Partial Class RemoteAppMainWindow
         Me.MinimumSize = New System.Drawing.Size(450, 300)
         Me.Name = "RemoteAppMainWindow"
         Me.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show
-        Me.Text = "RemoteApp 工具"
+        Me.Text = "工具"
         Me.ToolsMenuStrip.ResumeLayout(False)
         Me.ToolsMenuStrip.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

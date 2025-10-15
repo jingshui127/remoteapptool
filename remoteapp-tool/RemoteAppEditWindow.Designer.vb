@@ -82,7 +82,7 @@ Partial Class RemoteAppEditWindow
         Me.TSWAbox.Items.AddRange(New Object() {"No", "Yes"})
         Me.TSWAbox.Location = New System.Drawing.Point(318, 22)
         Me.TSWAbox.Name = "TSWAbox"
-        Me.TSWAbox.Size = New System.Drawing.Size(81, 23)
+        Me.TSWAbox.Size = New System.Drawing.Size(81, 49)
         Me.TSWAbox.TabIndex = 3
         '
         'CommandLineOptionCombo
@@ -93,7 +93,7 @@ Partial Class RemoteAppEditWindow
         Me.CommandLineOptionCombo.Items.AddRange(New Object() {"已禁用", "可选", "强制"})
         Me.CommandLineOptionCombo.Location = New System.Drawing.Point(139, 22)
         Me.CommandLineOptionCombo.Name = "CommandLineOptionCombo"
-        Me.CommandLineOptionCombo.Size = New System.Drawing.Size(81, 23)
+        Me.CommandLineOptionCombo.Size = New System.Drawing.Size(81, 49)
         Me.CommandLineOptionCombo.TabIndex = 1
         '
         'CommandLineText
@@ -103,7 +103,7 @@ Partial Class RemoteAppEditWindow
         Me.CommandLineText.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.CommandLineText.Location = New System.Drawing.Point(163, 53)
         Me.CommandLineText.Name = "CommandLineText"
-        Me.CommandLineText.Size = New System.Drawing.Size(236, 23)
+        Me.CommandLineText.Size = New System.Drawing.Size(236, 47)
         Me.CommandLineText.TabIndex = 5
         '
         'Label10
@@ -112,7 +112,7 @@ Partial Class RemoteAppEditWindow
         Me.Label10.AutoSize = True
         Me.Label10.Location = New System.Drawing.Point(229, 25)
         Me.Label10.Name = "Label10"
-        Me.Label10.Size = New System.Drawing.Size(82, 15)
+        Me.Label10.Size = New System.Drawing.Size(231, 41)
         Me.Label10.TabIndex = 2
         Me.Label10.Text = "TSWebAccess："
         '
@@ -121,7 +121,7 @@ Partial Class RemoteAppEditWindow
         Me.Label8.AutoSize = True
         Me.Label8.Location = New System.Drawing.Point(6, 25)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(127, 15)
+        Me.Label8.Size = New System.Drawing.Size(210, 41)
         Me.Label8.TabIndex = 0
         Me.Label8.Text = "命令行选项："
         '
@@ -131,7 +131,7 @@ Partial Class RemoteAppEditWindow
         Me.Label6.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Label6.Location = New System.Drawing.Point(6, 56)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(151, 15)
+        Me.Label6.Size = New System.Drawing.Size(210, 41)
         Me.Label6.TabIndex = 4
         Me.Label6.Text = "命令行参数："
         '
@@ -218,7 +218,7 @@ Partial Class RemoteAppEditWindow
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.FullNameText.Location = New System.Drawing.Point(72, 51)
         Me.FullNameText.Name = "FullNameText"
-        Me.FullNameText.Size = New System.Drawing.Size(327, 23)
+        Me.FullNameText.Size = New System.Drawing.Size(327, 47)
         Me.FullNameText.TabIndex = 3
         '
         'ShortNameText
@@ -227,7 +227,7 @@ Partial Class RemoteAppEditWindow
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ShortNameText.Location = New System.Drawing.Point(72, 22)
         Me.ShortNameText.Name = "ShortNameText"
-        Me.ShortNameText.Size = New System.Drawing.Size(327, 23)
+        Me.ShortNameText.Size = New System.Drawing.Size(327, 47)
         Me.ShortNameText.TabIndex = 1
         '
         'Label3
@@ -235,7 +235,7 @@ Partial Class RemoteAppEditWindow
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(6, 54)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(62, 15)
+        Me.Label3.Size = New System.Drawing.Size(114, 41)
         Me.Label3.TabIndex = 2
         Me.Label3.Text = "全名："
         '
@@ -244,7 +244,7 @@ Partial Class RemoteAppEditWindow
         Me.Label12.AutoSize = True
         Me.Label12.Location = New System.Drawing.Point(6, 25)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(42, 15)
+        Me.Label12.Size = New System.Drawing.Size(114, 41)
         Me.Label12.TabIndex = 0
         Me.Label12.Text = "名称："
         '
@@ -289,9 +289,9 @@ Partial Class RemoteAppEditWindow
         Me.IconResetButton.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.IconResetButton.ImageIndex = 6
         Me.IconResetButton.ImageList = Me.SmallerIcons
-        Me.IconResetButton.Location = New System.Drawing.Point(312, 80)
+        Me.IconResetButton.Location = New System.Drawing.Point(227, 80)
         Me.IconResetButton.Name = "IconResetButton"
-        Me.IconResetButton.Size = New System.Drawing.Size(87, 29)
+        Me.IconResetButton.Size = New System.Drawing.Size(172, 51)
         Me.IconResetButton.TabIndex = 8
         Me.IconResetButton.Text = "重置图标"
         Me.IconResetButton.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText
@@ -304,7 +304,7 @@ Partial Class RemoteAppEditWindow
         Me.IconPathText.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.IconPathText.Location = New System.Drawing.Point(72, 51)
         Me.IconPathText.Name = "IconPathText"
-        Me.IconPathText.Size = New System.Drawing.Size(294, 23)
+        Me.IconPathText.Size = New System.Drawing.Size(294, 47)
         Me.IconPathText.TabIndex = 4
         '
         'Label11
@@ -313,7 +313,7 @@ Partial Class RemoteAppEditWindow
         Me.Label11.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Label11.Location = New System.Drawing.Point(6, 85)
         Me.Label11.Name = "Label11"
-        Me.Label11.Size = New System.Drawing.Size(65, 15)
+        Me.Label11.Size = New System.Drawing.Size(178, 41)
         Me.Label11.TabIndex = 6
         Me.Label11.Text = "图标索引："
         '
@@ -323,7 +323,7 @@ Partial Class RemoteAppEditWindow
         Me.Label7.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Label7.Location = New System.Drawing.Point(6, 54)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(60, 15)
+        Me.Label7.Size = New System.Drawing.Size(178, 41)
         Me.Label7.TabIndex = 3
         Me.Label7.Text = "图标路径："
         '
@@ -333,7 +333,7 @@ Partial Class RemoteAppEditWindow
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PathText.Location = New System.Drawing.Point(72, 22)
         Me.PathText.Name = "PathText"
-        Me.PathText.Size = New System.Drawing.Size(294, 23)
+        Me.PathText.Size = New System.Drawing.Size(294, 47)
         Me.PathText.TabIndex = 1
         '
         'IconIndexText
@@ -341,7 +341,7 @@ Partial Class RemoteAppEditWindow
         Me.IconIndexText.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.IconIndexText.Location = New System.Drawing.Point(72, 80)
         Me.IconIndexText.Name = "IconIndexText"
-        Me.IconIndexText.Size = New System.Drawing.Size(60, 23)
+        Me.IconIndexText.Size = New System.Drawing.Size(60, 47)
         Me.IconIndexText.TabIndex = 7
         Me.IconIndexText.Text = "0"
         '
@@ -350,7 +350,7 @@ Partial Class RemoteAppEditWindow
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(6, 25)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(59, 15)
+        Me.Label4.Size = New System.Drawing.Size(242, 41)
         Me.Label4.TabIndex = 0
         Me.Label4.Text = "应用程序路径："
         '
@@ -391,18 +391,18 @@ Partial Class RemoteAppEditWindow
         Me.Label1.Font = New System.Drawing.Font("Segoe UI", 9.0!)
         Me.Label1.Location = New System.Drawing.Point(6, 87)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(121, 15)
+        Me.Label1.Size = New System.Drawing.Size(242, 41)
         Me.Label1.TabIndex = 6
         Me.Label1.Text = "文件类型关联："
         '
         'RemoteAppEditWindow
         '
         Me.AcceptButton = Me.SaveButton
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(17.0!, 41.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.CancelButton = Me.CancelEditButton
-        Me.ClientSize = New System.Drawing.Size(429, 391)
+        Me.ClientSize = New System.Drawing.Size(429, 342)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
@@ -416,7 +416,7 @@ Partial Class RemoteAppEditWindow
         Me.MinimumSize = New System.Drawing.Size(445, 430)
         Me.Name = "RemoteAppEditWindow"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
-        Me.Text = "RemoteApp 编辑窗口"
+        Me.Text = " 编辑窗口"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)

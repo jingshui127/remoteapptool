@@ -150,7 +150,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.Label13.AutoSize = True
         Me.Label13.Location = New System.Drawing.Point(9, 53)
         Me.Label13.Name = "Label13"
-        Me.Label13.Size = New System.Drawing.Size(101, 15)
+        Me.Label13.Size = New System.Drawing.Size(210, 41)
         Me.Label13.TabIndex = 4
         Me.Label13.Text = "备用服务器："
         '
@@ -159,7 +159,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.Label14.AutoSize = True
         Me.Label14.Location = New System.Drawing.Point(376, 24)
         Me.Label14.Name = "Label14"
-        Me.Label14.Size = New System.Drawing.Size(32, 15)
+        Me.Label14.Size = New System.Drawing.Size(114, 41)
         Me.Label14.TabIndex = 2
         Me.Label14.Text = "端口："
         '
@@ -168,7 +168,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.Label12.AutoSize = True
         Me.Label12.Location = New System.Drawing.Point(9, 24)
         Me.Label12.Name = "Label12"
-        Me.Label12.Size = New System.Drawing.Size(85, 15)
+        Me.Label12.Size = New System.Drawing.Size(210, 41)
         Me.Label12.TabIndex = 0
         Me.Label12.Text = "服务器地址："
         '
@@ -176,7 +176,7 @@ Partial Class RemoteAppCreateClientConnection
         '
         Me.ServerPort.Location = New System.Drawing.Point(414, 21)
         Me.ServerPort.Name = "ServerPort"
-        Me.ServerPort.Size = New System.Drawing.Size(53, 23)
+        Me.ServerPort.Size = New System.Drawing.Size(53, 47)
         Me.ServerPort.TabIndex = 3
         Me.ServerPort.Text = "3389"
         '
@@ -184,14 +184,14 @@ Partial Class RemoteAppCreateClientConnection
         '
         Me.AltServerAddress.Location = New System.Drawing.Point(120, 50)
         Me.AltServerAddress.Name = "AltServerAddress"
-        Me.AltServerAddress.Size = New System.Drawing.Size(347, 23)
+        Me.AltServerAddress.Size = New System.Drawing.Size(347, 47)
         Me.AltServerAddress.TabIndex = 5
         '
         'ServerAddress
         '
         Me.ServerAddress.Location = New System.Drawing.Point(120, 21)
         Me.ServerAddress.Name = "ServerAddress"
-        Me.ServerAddress.Size = New System.Drawing.Size(250, 23)
+        Me.ServerAddress.Size = New System.Drawing.Size(250, 47)
         Me.ServerAddress.TabIndex = 1
         '
         'AttemptDirectCheckBox
@@ -200,7 +200,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.AttemptDirectCheckBox.Enabled = False
         Me.AttemptDirectCheckBox.Location = New System.Drawing.Point(12, 70)
         Me.AttemptDirectCheckBox.Name = "AttemptDirectCheckBox"
-        Me.AttemptDirectCheckBox.Size = New System.Drawing.Size(326, 19)
+        Me.AttemptDirectCheckBox.Size = New System.Drawing.Size(559, 45)
         Me.AttemptDirectCheckBox.TabIndex = 3
         Me.AttemptDirectCheckBox.Text = "仅在直接连接不成功时使用 RD 网关"
         Me.AttemptDirectCheckBox.UseVisualStyleBackColor = True
@@ -210,7 +210,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.UseRDGatewayCheckBox.AutoSize = True
         Me.UseRDGatewayCheckBox.Location = New System.Drawing.Point(12, 16)
         Me.UseRDGatewayCheckBox.Name = "UseRDGatewayCheckBox"
-        Me.UseRDGatewayCheckBox.Size = New System.Drawing.Size(111, 19)
+        Me.UseRDGatewayCheckBox.Size = New System.Drawing.Size(239, 45)
         Me.UseRDGatewayCheckBox.TabIndex = 0
         Me.UseRDGatewayCheckBox.Text = "使用 RD 网关"
         Me.UseRDGatewayCheckBox.UseVisualStyleBackColor = True
@@ -221,7 +221,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.RDGWLabel.Enabled = False
         Me.RDGWLabel.Location = New System.Drawing.Point(9, 44)
         Me.RDGWLabel.Name = "RDGWLabel"
-        Me.RDGWLabel.Size = New System.Drawing.Size(116, 15)
+        Me.RDGWLabel.Size = New System.Drawing.Size(225, 41)
         Me.RDGWLabel.TabIndex = 1
         Me.RDGWLabel.Text = "RD 网关地址："
         '
@@ -230,7 +230,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.GatewayAddress.Enabled = False
         Me.GatewayAddress.Location = New System.Drawing.Point(138, 41)
         Me.GatewayAddress.Name = "GatewayAddress"
-        Me.GatewayAddress.Size = New System.Drawing.Size(328, 23)
+        Me.GatewayAddress.Size = New System.Drawing.Size(328, 47)
         Me.GatewayAddress.TabIndex = 2
         '
         'MSIRadioButton
@@ -238,7 +238,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.MSIRadioButton.AutoSize = True
         Me.MSIRadioButton.Location = New System.Drawing.Point(12, 43)
         Me.MSIRadioButton.Name = "MSIRadioButton"
-        Me.MSIRadioButton.Size = New System.Drawing.Size(89, 19)
+        Me.MSIRadioButton.Size = New System.Drawing.Size(242, 45)
         Me.MSIRadioButton.TabIndex = 2
         Me.MSIRadioButton.TabStop = True
         Me.MSIRadioButton.Text = "MSI 安装程序"
@@ -250,7 +250,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.RDPRadioButton.Checked = True
         Me.RDPRadioButton.Location = New System.Drawing.Point(12, 18)
         Me.RDPRadioButton.Name = "RDPRadioButton"
-        Me.RDPRadioButton.Size = New System.Drawing.Size(66, 19)
+        Me.RDPRadioButton.Size = New System.Drawing.Size(183, 45)
         Me.RDPRadioButton.TabIndex = 1
         Me.RDPRadioButton.TabStop = True
         Me.RDPRadioButton.Text = "RDP 文件"
@@ -299,7 +299,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.ShortcutDesktopCheckBox.CheckState = System.Windows.Forms.CheckState.Checked
         Me.ShortcutDesktopCheckBox.Location = New System.Drawing.Point(118, 15)
         Me.ShortcutDesktopCheckBox.Name = "ShortcutDesktopCheckBox"
-        Me.ShortcutDesktopCheckBox.Size = New System.Drawing.Size(69, 19)
+        Me.ShortcutDesktopCheckBox.Size = New System.Drawing.Size(120, 45)
         Me.ShortcutDesktopCheckBox.TabIndex = 1
         Me.ShortcutDesktopCheckBox.Text = "桌面"
         Me.ShortcutDesktopCheckBox.UseVisualStyleBackColor = True
@@ -320,7 +320,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.PerMachineRadioButton.Checked = True
         Me.PerMachineRadioButton.Location = New System.Drawing.Point(3, 3)
         Me.PerMachineRadioButton.Name = "PerMachineRadioButton"
-        Me.PerMachineRadioButton.Size = New System.Drawing.Size(93, 19)
+        Me.PerMachineRadioButton.Size = New System.Drawing.Size(183, 45)
         Me.PerMachineRadioButton.TabIndex = 0
         Me.PerMachineRadioButton.TabStop = True
         Me.PerMachineRadioButton.Text = "每台机器"
@@ -331,7 +331,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.PerUserRadioButton.AutoSize = True
         Me.PerUserRadioButton.Location = New System.Drawing.Point(100, 3)
         Me.PerUserRadioButton.Name = "PerUserRadioButton"
-        Me.PerUserRadioButton.Size = New System.Drawing.Size(69, 19)
+        Me.PerUserRadioButton.Size = New System.Drawing.Size(183, 45)
         Me.PerUserRadioButton.TabIndex = 1
         Me.PerUserRadioButton.TabStop = True
         Me.PerUserRadioButton.Text = "每个用户"
@@ -342,7 +342,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.TopLevelRadioButton.AutoSize = True
         Me.TopLevelRadioButton.Location = New System.Drawing.Point(368, 14)
         Me.TopLevelRadioButton.Name = "TopLevelRadioButton"
-        Me.TopLevelRadioButton.Size = New System.Drawing.Size(71, 19)
+        Me.TopLevelRadioButton.Size = New System.Drawing.Size(119, 45)
         Me.TopLevelRadioButton.TabIndex = 4
         Me.TopLevelRadioButton.Text = "顶级"
         Me.TopLevelRadioButton.UseVisualStyleBackColor = True
@@ -353,7 +353,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.SubfolderRadioButton.Checked = True
         Me.SubfolderRadioButton.Location = New System.Drawing.Point(286, 14)
         Me.SubfolderRadioButton.Name = "SubfolderRadioButton"
-        Me.SubfolderRadioButton.Size = New System.Drawing.Size(76, 19)
+        Me.SubfolderRadioButton.Size = New System.Drawing.Size(183, 45)
         Me.SubfolderRadioButton.TabIndex = 3
         Me.SubfolderRadioButton.TabStop = True
         Me.SubfolderRadioButton.Text = "子文件夹"
@@ -366,7 +366,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.ShortcutStartCheckBox.CheckState = System.Windows.Forms.CheckState.Checked
         Me.ShortcutStartCheckBox.Location = New System.Drawing.Point(193, 15)
         Me.ShortcutStartCheckBox.Name = "ShortcutStartCheckBox"
-        Me.ShortcutStartCheckBox.Size = New System.Drawing.Size(87, 19)
+        Me.ShortcutStartCheckBox.Size = New System.Drawing.Size(216, 45)
         Me.ShortcutStartCheckBox.TabIndex = 2
         Me.ShortcutStartCheckBox.Text = "开始菜单："
         Me.ShortcutStartCheckBox.UseVisualStyleBackColor = True
@@ -376,7 +376,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(291, 47)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(11, 15)
+        Me.Label3.Size = New System.Drawing.Size(27, 41)
         Me.Label3.TabIndex = 7
         Me.Label3.Text = ")"
         '
@@ -385,7 +385,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.Label2.AutoSize = True
         Me.Label2.Location = New System.Drawing.Point(112, 46)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(11, 15)
+        Me.Label2.Size = New System.Drawing.Size(27, 41)
         Me.Label2.TabIndex = 4
         Me.Label2.Text = "("
         '
@@ -396,7 +396,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.ShortcutTagCheckBox.CheckState = System.Windows.Forms.CheckState.Checked
         Me.ShortcutTagCheckBox.Location = New System.Drawing.Point(15, 45)
         Me.ShortcutTagCheckBox.Name = "ShortcutTagCheckBox"
-        Me.ShortcutTagCheckBox.Size = New System.Drawing.Size(94, 19)
+        Me.ShortcutTagCheckBox.Size = New System.Drawing.Size(280, 45)
         Me.ShortcutTagCheckBox.TabIndex = 5
         Me.ShortcutTagCheckBox.Text = "快捷方式标签："
         Me.ShortcutTagCheckBox.UseVisualStyleBackColor = True
@@ -405,7 +405,7 @@ Partial Class RemoteAppCreateClientConnection
         '
         Me.ShortcutTagTextBox.Location = New System.Drawing.Point(129, 43)
         Me.ShortcutTagTextBox.Name = "ShortcutTagTextBox"
-        Me.ShortcutTagTextBox.Size = New System.Drawing.Size(156, 23)
+        Me.ShortcutTagTextBox.Size = New System.Drawing.Size(156, 47)
         Me.ShortcutTagTextBox.TabIndex = 6
         Me.ShortcutTagTextBox.Text = "remote"
         '
@@ -414,7 +414,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(9, 78)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(75, 15)
+        Me.Label4.Size = New System.Drawing.Size(178, 41)
         Me.Label4.TabIndex = 8
         Me.Label4.Text = "安装范围："
         '
@@ -423,7 +423,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(9, 16)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(103, 15)
+        Me.Label1.Size = New System.Drawing.Size(274, 41)
         Me.Label1.TabIndex = 0
         Me.Label1.Text = "放置快捷方式于："
         '
@@ -460,7 +460,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.FTACountLabel.AutoSize = True
         Me.FTACountLabel.Location = New System.Drawing.Point(163, 22)
         Me.FTACountLabel.Name = "FTACountLabel"
-        Me.FTACountLabel.Size = New System.Drawing.Size(52, 15)
+        Me.FTACountLabel.Size = New System.Drawing.Size(130, 41)
         Me.FTACountLabel.TabIndex = 1
         Me.FTACountLabel.Text = "计数：0"
         '
@@ -469,7 +469,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.DisabledFTACheckBox.AutoSize = True
         Me.DisabledFTACheckBox.Location = New System.Drawing.Point(12, 21)
         Me.DisabledFTACheckBox.Name = "DisabledFTACheckBox"
-        Me.DisabledFTACheckBox.Size = New System.Drawing.Size(71, 19)
+        Me.DisabledFTACheckBox.Size = New System.Drawing.Size(152, 45)
         Me.DisabledFTACheckBox.TabIndex = 0
         Me.DisabledFTACheckBox.Text = "已禁用"
         Me.DisabledFTACheckBox.UseVisualStyleBackColor = True
@@ -479,7 +479,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.CheckBoxCreateSignedAndUnsigned.AutoSize = True
         Me.CheckBoxCreateSignedAndUnsigned.Location = New System.Drawing.Point(12, 42)
         Me.CheckBoxCreateSignedAndUnsigned.Name = "CheckBoxCreateSignedAndUnsigned"
-        Me.CheckBoxCreateSignedAndUnsigned.Size = New System.Drawing.Size(175, 19)
+        Me.CheckBoxCreateSignedAndUnsigned.Size = New System.Drawing.Size(312, 45)
         Me.CheckBoxCreateSignedAndUnsigned.TabIndex = 1
         Me.CheckBoxCreateSignedAndUnsigned.Text = "创建签名和未签名"
         Me.CheckBoxCreateSignedAndUnsigned.UseVisualStyleBackColor = True
@@ -491,7 +491,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.CertificateComboBox.FormattingEnabled = True
         Me.CertificateComboBox.Location = New System.Drawing.Point(280, 15)
         Me.CertificateComboBox.Name = "CertificateComboBox"
-        Me.CertificateComboBox.Size = New System.Drawing.Size(191, 23)
+        Me.CertificateComboBox.Size = New System.Drawing.Size(191, 49)
         Me.CertificateComboBox.TabIndex = 3
         '
         'CertificateLabel
@@ -499,7 +499,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.CertificateLabel.AutoSize = True
         Me.CertificateLabel.Location = New System.Drawing.Point(210, 18)
         Me.CertificateLabel.Name = "CertificateLabel"
-        Me.CertificateLabel.Size = New System.Drawing.Size(64, 15)
+        Me.CertificateLabel.Size = New System.Drawing.Size(114, 41)
         Me.CertificateLabel.TabIndex = 2
         Me.CertificateLabel.Text = "证书："
         '
@@ -508,7 +508,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.CheckBoxSignRDPEnabled.AutoSize = True
         Me.CheckBoxSignRDPEnabled.Location = New System.Drawing.Point(12, 17)
         Me.CheckBoxSignRDPEnabled.Name = "CheckBoxSignRDPEnabled"
-        Me.CheckBoxSignRDPEnabled.Size = New System.Drawing.Size(93, 19)
+        Me.CheckBoxSignRDPEnabled.Size = New System.Drawing.Size(256, 45)
         Me.CheckBoxSignRDPEnabled.TabIndex = 0
         Me.CheckBoxSignRDPEnabled.Text = "签署 RDP 文件"
         Me.CheckBoxSignRDPEnabled.UseVisualStyleBackColor = True
@@ -535,10 +535,10 @@ Partial Class RemoteAppCreateClientConnection
         Me.HostTabPage.Controls.Add(Me.AltServerAddress)
         Me.HostTabPage.Controls.Add(Me.Label12)
         Me.HostTabPage.Controls.Add(Me.ServerPort)
-        Me.HostTabPage.Location = New System.Drawing.Point(4, 24)
+        Me.HostTabPage.Location = New System.Drawing.Point(10, 58)
         Me.HostTabPage.Name = "HostTabPage"
         Me.HostTabPage.Padding = New System.Windows.Forms.Padding(3)
-        Me.HostTabPage.Size = New System.Drawing.Size(484, 109)
+        Me.HostTabPage.Size = New System.Drawing.Size(472, 69)
         Me.HostTabPage.TabIndex = 0
         Me.HostTabPage.Text = "主机"
         Me.HostTabPage.UseVisualStyleBackColor = True
@@ -550,10 +550,10 @@ Partial Class RemoteAppCreateClientConnection
         Me.OptionsTabPage.Controls.Add(Me.RDPRadioButton)
         Me.OptionsTabPage.Controls.Add(Me.EditAfterSave)
         Me.OptionsTabPage.Controls.Add(Me.CreateRAWebIcon)
-        Me.OptionsTabPage.Location = New System.Drawing.Point(4, 24)
+        Me.OptionsTabPage.Location = New System.Drawing.Point(10, 58)
         Me.OptionsTabPage.Name = "OptionsTabPage"
         Me.OptionsTabPage.Padding = New System.Windows.Forms.Padding(3)
-        Me.OptionsTabPage.Size = New System.Drawing.Size(484, 109)
+        Me.OptionsTabPage.Size = New System.Drawing.Size(472, 69)
         Me.OptionsTabPage.TabIndex = 1
         Me.OptionsTabPage.Text = "选项"
         Me.OptionsTabPage.UseVisualStyleBackColor = True
@@ -577,10 +577,10 @@ Partial Class RemoteAppCreateClientConnection
         Me.GatewayTabPage.Controls.Add(Me.UseRDGatewayCheckBox)
         Me.GatewayTabPage.Controls.Add(Me.GatewayAddress)
         Me.GatewayTabPage.Controls.Add(Me.RDGWLabel)
-        Me.GatewayTabPage.Location = New System.Drawing.Point(4, 24)
+        Me.GatewayTabPage.Location = New System.Drawing.Point(10, 58)
         Me.GatewayTabPage.Name = "GatewayTabPage"
         Me.GatewayTabPage.Padding = New System.Windows.Forms.Padding(3)
-        Me.GatewayTabPage.Size = New System.Drawing.Size(484, 109)
+        Me.GatewayTabPage.Size = New System.Drawing.Size(472, 69)
         Me.GatewayTabPage.TabIndex = 2
         Me.GatewayTabPage.Text = "网关"
         Me.GatewayTabPage.UseVisualStyleBackColor = True
@@ -590,10 +590,10 @@ Partial Class RemoteAppCreateClientConnection
         Me.FileTypesTabPage.Controls.Add(Me.FTACountLabel)
         Me.FileTypesTabPage.Controls.Add(Me.FTAButton)
         Me.FileTypesTabPage.Controls.Add(Me.DisabledFTACheckBox)
-        Me.FileTypesTabPage.Location = New System.Drawing.Point(4, 24)
+        Me.FileTypesTabPage.Location = New System.Drawing.Point(10, 58)
         Me.FileTypesTabPage.Name = "FileTypesTabPage"
         Me.FileTypesTabPage.Padding = New System.Windows.Forms.Padding(3)
-        Me.FileTypesTabPage.Size = New System.Drawing.Size(484, 109)
+        Me.FileTypesTabPage.Size = New System.Drawing.Size(472, 69)
         Me.FileTypesTabPage.TabIndex = 3
         Me.FileTypesTabPage.Text = "文件类型"
         Me.FileTypesTabPage.UseVisualStyleBackColor = True
@@ -611,10 +611,10 @@ Partial Class RemoteAppCreateClientConnection
         Me.MSIOptionsTabPage.Controls.Add(Me.Label3)
         Me.MSIOptionsTabPage.Controls.Add(Me.ShortcutTagCheckBox)
         Me.MSIOptionsTabPage.Controls.Add(Me.Label2)
-        Me.MSIOptionsTabPage.Location = New System.Drawing.Point(4, 24)
+        Me.MSIOptionsTabPage.Location = New System.Drawing.Point(10, 58)
         Me.MSIOptionsTabPage.Name = "MSIOptionsTabPage"
         Me.MSIOptionsTabPage.Padding = New System.Windows.Forms.Padding(3)
-        Me.MSIOptionsTabPage.Size = New System.Drawing.Size(484, 109)
+        Me.MSIOptionsTabPage.Size = New System.Drawing.Size(472, 69)
         Me.MSIOptionsTabPage.TabIndex = 4
         Me.MSIOptionsTabPage.Text = "MSI 选项"
         Me.MSIOptionsTabPage.UseVisualStyleBackColor = True
@@ -626,10 +626,10 @@ Partial Class RemoteAppCreateClientConnection
         Me.SigningTabPage.Controls.Add(Me.CheckBoxSignRDPEnabled)
         Me.SigningTabPage.Controls.Add(Me.CertificateComboBox)
         Me.SigningTabPage.Controls.Add(Me.CertificateLabel)
-        Me.SigningTabPage.Location = New System.Drawing.Point(4, 24)
+        Me.SigningTabPage.Location = New System.Drawing.Point(10, 58)
         Me.SigningTabPage.Name = "SigningTabPage"
         Me.SigningTabPage.Padding = New System.Windows.Forms.Padding(3)
-        Me.SigningTabPage.Size = New System.Drawing.Size(484, 109)
+        Me.SigningTabPage.Size = New System.Drawing.Size(472, 69)
         Me.SigningTabPage.TabIndex = 5
         Me.SigningTabPage.Text = "签名"
         Me.SigningTabPage.UseVisualStyleBackColor = True
@@ -648,7 +648,7 @@ Partial Class RemoteAppCreateClientConnection
         'RemoteAppCreateClientConnection
         '
         Me.AcceptButton = Me.CreateButton
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(17.0!, 41.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
         Me.CancelButton = Me.CancelEditButton
@@ -665,7 +665,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.MinimizeBox = False
         Me.Name = "RemoteAppCreateClientConnection"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
-        Me.Text = "RemoteApp 创建客户端连接"
+        Me.Text = "创建客户端连接"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.TabControl.ResumeLayout(False)
