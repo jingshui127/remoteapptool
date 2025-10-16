@@ -642,7 +642,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.RdpsignErrorLabel.Name = "RdpsignErrorLabel"
         Me.RdpsignErrorLabel.Size = New System.Drawing.Size(472, 21)
         Me.RdpsignErrorLabel.TabIndex = 4
-        Me.RdpsignErrorLabel.Text = "RdpsignErrorLabel"
+        Me.RdpsignErrorLabel.Text = "RDP 签名错误标签"
         Me.RdpsignErrorLabel.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'RemoteAppCreateClientConnection
@@ -665,7 +665,7 @@ Partial Class RemoteAppCreateClientConnection
         Me.MinimizeBox = False
         Me.Name = "RemoteAppCreateClientConnection"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent
-        Me.Text = "创建客户端连接"
+        Me.Text = "为 [应用名称] 创建客户端连接"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         Me.TabControl.ResumeLayout(False)

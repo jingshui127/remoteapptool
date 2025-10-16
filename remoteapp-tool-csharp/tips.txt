@@ -1,0 +1,42 @@
+RemoteAppMainWindow|CreateButton|创建新的 RemoteApp。
+RemoteAppMainWindow|DeleteButton|删除选中的 RemoteApp。
+RemoteAppMainWindow|EditButton|编辑选中的 RemoteApp 属性。
+RemoteAppMainWindow|CreateClientConnection|为选中的 RemoteApp 创建 RDP 文件或 MSI 安装程序。
+
+RemoteAppEditWindow|SaveButton|保存更改并关闭。
+RemoteAppEditWindow|FTAButton|设置此 RemoteApp 的文件类型关联。
+RemoteAppEditWindow|CancelEditButton|放弃更改并关闭。
+RemoteAppEditWindow|BrowseIconPath|为 RemoteApp 选择图标。
+RemoteAppEditWindow|IconPathCopyButton|将“路径”字段的值复制到“图标路径”字段。
+RemoteAppEditWindow|BrowsePath|浏览应用程序。
+RemoteAppEditWindow|IconResetButton|将图标重置为此应用程序的默认图标。
+
+RemoteAppCreateClientConnection|RDPRadioButton|创建 RDP 文件。
+RemoteAppCreateClientConnection|MSIRadioButton|创建 MSI 安装程序。
+RemoteAppCreateClientConnection|EditAfterSave|编辑 RDP 连接文件。
+RemoteAppCreateClientConnection|CreateRAWebIcon|为应用程序和任何文件类型关联生成图标。
+与 RAWeb 一起使用。
+RemoteAppCreateClientConnection|FTAButton|设置此 RemoteApp 的文件类型关联。
+此处的更改仅影响此客户端连接，不会被保存。
+RemoteAppCreateClientConnection|DisabledFTACheckBox|不在此客户端连接中包含文件类型关联。
+RemoteAppCreateClientConnection|SaveButton|保存窗口设置以便下次使用。
+RemoteAppCreateClientConnection|ResetButton|将窗口设置重置为默认值。
+RemoteAppCreateClientConnection|CancelEditButton|关闭并返回主窗口。
+RemoteAppCreateClientConnection|CreateButton|创建客户端连接并选择保存位置。
+RemoteAppCreateClientConnection|UseRDGatewayCheckBox|使用远程桌面网关连接到主机。
+RemoteAppCreateClientConnection|AttemptDirectCheckBox|先尝试直接连接，如果失败则使用远程桌面网关。
+RemoteAppCreateClientConnection|ShortcutTagCheckBox|在每个快捷方式标题末尾附加一些文本。
+RemoteAppCreateClientConnection|PerMachineRadioButton|快捷方式应该为所有用户安装（每计算机），还是仅为当前登录用户安装（每用户）？
+RemoteAppCreateClientConnection|PerUserRadioButton|快捷方式应该为所有用户安装（每计算机），还是仅为当前登录用户安装（每用户）？
+RemoteAppCreateClientConnection|CheckBoxSignRDPEnabled|对 RDP 文件进行数字签名。
+RemoteAppCreateClientConnection|CheckBoxCreateSignedAndUnsigned|生成已签名和未签名的 RDP 文件副本。
+
+RemoteAppFileTypeAssociation|CreateButton|创建新的文件类型关联。
+RemoteAppFileTypeAssociation|DeleteButton|删除选中的文件类型关联。
+RemoteAppFileTypeAssociation|EditButton|更改选中的文件类型关联的图标。
+RemoteAppFileTypeAssociation|SetAssociationButton|在当前系统上创建或删除选中的文件类型关联。
+RemoteAppFileTypeAssociation|CloseButton|保存更改并关闭。
+
+RemoteAppIconPicker|BrowseButton|浏览包含图标的文件。
+RemoteAppIconPicker|CancelEditButton|放弃更改并关闭。
+RemoteAppIconPicker|OKButton|选择所选图标。

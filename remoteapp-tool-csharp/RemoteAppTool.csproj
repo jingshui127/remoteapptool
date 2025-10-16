@@ -1,0 +1,81 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>add-window.ico</ApplicationIcon>
+    <AssemblyName>RemoteAppTool</AssemblyName>
+    <RootNamespace>RemoteApp_Tool</RootNamespace>
+    <Platforms>AnyCPU</Platforms>
+    <LangVersion>latest</LangVersion>
+    <GenerateResourceUsePreserializedResources>true</GenerateResourceUsePreserializedResources>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Resources.Extensions" Version="9.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- .NET SDK 项目会自动包含所有 .cs 文件 -->
+    <!-- RemoteAppEditWindow 已启用，由 SDK 自动包含 -->
+    <!-- 以下资源文件需要显式指定依赖关系 -->
+    <EmbeddedResource Update="RemoteAppEditWindow.resx">
+      <DependentUpon>RemoteAppEditWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RDPOptionsWindow.resx">
+      <DependentUpon>RDPOptionsWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RemoteAppCreateClientConnection.resx">
+      <DependentUpon>RemoteAppCreateClientConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RemoteAppFileTypeAssociation.resx">
+      <DependentUpon>RemoteAppFileTypeAssociation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RemoteAppHostOptions.resx">
+      <DependentUpon>RemoteAppHostOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Update="RemoteAppIconPicker.resx">
+      <DependentUpon>RemoteAppIconPicker.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="add-window.ico" />
+
+  </ItemGroup>
+
+  <!-- 使用C#版本的依赖库 -->
+  <ItemGroup>
+    <ProjectReference Include="..\RemoteAppLibCS\RemoteAppLibCS.csproj">
+      <Project>{785b6808-b2fe-4c18-9d63-6dab46482374}</Project>
+      <Name>RemoteAppLibCS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDPFileLibCS\RDPFileLibCS.csproj">
+      <Project>{258307d5-a407-4622-bf1a-bdca8e3d2faa}</Project>
+      <Name>RDPFileLibCS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RDPSignCS\RDPSignCS.csproj">
+      <Project>{57dabb69-b1d3-445f-91e7-b0412abac218}</Project>
+      <Name>RDPSignCS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LockCheckerCS\LockCheckerCS.csproj">
+      <Project>{029c010d-728b-4b87-b54a-08b2bbf49bd7}</Project>
+      <Name>LockCheckerCS</Name>
+    </ProjectReference>
+  </ItemGroup>
+
+  <ItemGroup>
+  </ItemGroup>
+
+</Project>

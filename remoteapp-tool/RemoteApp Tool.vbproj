@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{2D140FE4-0794-43AC-BE7B-9D918B3F9C61}</ProjectGuid>
+    <ProjectGuid>{958CEB98-526F-4ACB-B8BE-93026920B42C}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <StartupObject>RemoteApp_Tool.My.MyApplication</StartupObject>
     <RootNamespace>RemoteApp_Tool</RootNamespace>
@@ -20,6 +20,7 @@
     <TreatWarningsAsErrors>False</TreatWarningsAsErrors>
     <IntermediateOutputPath>obj\$(Configuration)\</IntermediateOutputPath>
     <WarningLevel>4</WarningLevel>
+    <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>

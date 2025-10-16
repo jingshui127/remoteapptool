@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{785B6808-B2FE-4C18-9D63-6DAB46482374}</ProjectGuid>
+    <ProjectGuid>{D38FFE59-CED3-4650-8D7D-C514FF213B95}</ProjectGuid>
     <OutputType>Library</OutputType>
     <RootNamespace>RemoteAppLib</RootNamespace>
     <AssemblyName>RemoteAppLib</AssemblyName>
