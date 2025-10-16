@@ -204,6 +204,7 @@ namespace RemoteApp_Tool
             this.Controls.Add(this.TimeoutIdleCheckBox);
             this.Controls.Add(this.TimeoutDisconnectedCheckBox);
             this.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

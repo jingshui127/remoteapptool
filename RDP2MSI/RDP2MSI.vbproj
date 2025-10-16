@@ -111,12 +111,6 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\RDP2MSILib\RDP2MSILib.vbproj">
-      <Project>{e1cb5f9c-230f-4967-8f19-335f8e4a4906}</Project>
-      <Name>RDP2MSILib</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

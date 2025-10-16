@@ -234,7 +234,7 @@ namespace RemoteAppTool
             this.Controls.Add(this.OptionsListBox);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             // 暂时注释掉Icon资源加载，避免资源文件缺失错误
-            // this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(602, 445);
             this.Name = "RDPOptionsWindow";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

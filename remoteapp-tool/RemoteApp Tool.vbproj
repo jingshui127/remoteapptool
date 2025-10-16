@@ -303,10 +303,6 @@
       <Project>{57dabb69-b1d3-445f-91e7-b0412abac218}</Project>
       <Name>RDPSign</Name>
     </ProjectReference>
-    <ProjectReference Include="..\RemoteAppLib\RemoteAppLib.vbproj">
-      <Project>{785b6808-b2fe-4c18-9d63-6dab46482374}</Project>
-      <Name>RemoteAppLib</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

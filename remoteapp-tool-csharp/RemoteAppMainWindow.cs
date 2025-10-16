@@ -474,11 +474,12 @@ namespace RemoteApp_Tool
                 
                 // 菜单项使用 ToolTipText 属性
                 this.FileToolStripMenuItem.ToolTipText = "文件菜单\n包含新建、复制和退出选项";
-                this.ToolsToolStripMenuItem.ToolTipText = "工具菜单\n包含主机选项、清理和备份功能";
+                this.ToolsToolStripMenuItem.ToolTipText = "工具菜单\n包含主机状态、主机选项、清理和备份功能";
                 this.HelpToolStripMenuItem.ToolTipText = "帮助菜单\n包含网站链接和关于信息";
                 this.NewRemoteAppadvancedToolStripMenuItem.ToolTipText = "创建新的 RemoteApp（高级模式）\n使用高级选项创建新的远程应用程序";
                 this.DuplicateToolStripMenuItem.ToolTipText = "复制选中的 RemoteApp\n创建当前选中应用程序的副本";
                 this.HostOptionsToolStripMenuItem.ToolTipText = "主机选项\n配置 RemoteApp 服务器的全局设置";
+                this.HostStatusToolStripMenuItem.ToolTipText = "主机状态\n显示当前主机的系统信息";
                 this.RemoveUnusedFileTypeAssociationsToolStripMenuItem.ToolTipText = "清理未使用的文件类型关联\n删除不再使用的文件类型关联";
                 this.BackupAllRemoteAppsToolStripMenuItem.ToolTipText = "备份所有 RemoteApp\n将所有 RemoteApp 配置导出为注册表文件";
                 this.WebsiteToolStripMenuItem.ToolTipText = "访问项目网站\n在浏览器中打开 RemoteApp Tool 的 GitHub 主页";
@@ -538,6 +539,12 @@ namespace RemoteApp_Tool
                     {
                         this.ToolsToolStripMenuItem.ImageIndex = 0; // tools图标
                         System.Diagnostics.Debug.WriteLine("已设置Tools菜单图标");
+                    }
+                    
+                    if (this.HostStatusToolStripMenuItem != null && this.SmallerIcons.Images.Count > 10)
+                    {
+                        this.HostStatusToolStripMenuItem.ImageIndex = 10; // host图标
+                        System.Diagnostics.Debug.WriteLine("已设置HostStatus菜单项图标");
                     }
                     
                     if (this.HostOptionsToolStripMenuItem != null && this.SmallerIcons.Images.Count > 10)
@@ -952,6 +959,19 @@ namespace RemoteApp_Tool
                 }
             }
         }
+        private void HostStatusToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                var hostStatus = new RemoteAppHostStatus();
+                hostStatus.ShowDialog();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"无法打开主机状态: {ex.Message}", "错误", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+        
         private void HostOptionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             try
@@ -1085,6 +1105,20 @@ namespace RemoteApp_Tool
         private void btnCopy_Click(object sender, EventArgs e)
         {
             CopyRemoteAPP();
+        }
+
+        private void 文档ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                string urtl = "https://mp.weixin.qq.com/s/SGcH5VnPhoJoLcGqO6QS7w";
+
+                System.Diagnostics.Process.Start(urtl);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"无法打开网站: {ex.Message}", "错误", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

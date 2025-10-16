@@ -65,6 +65,7 @@ namespace RemoteApp_Tool
             this.AboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.BackupSaveFileDialog = new System.Windows.Forms.SaveFileDialog();
             this.btnCopy = new System.Windows.Forms.Button();
+            this.文档ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ToolsMenuStrip.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -274,6 +275,8 @@ namespace RemoteApp_Tool
             // 
             this.ToolsMenuStrip.BackColor = System.Drawing.Color.White;
             this.ToolsMenuStrip.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.ToolsMenuStrip.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
+            this.ToolsMenuStrip.ImageScalingSize = new System.Drawing.Size(40, 40);
             this.ToolsMenuStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.FileToolStripMenuItem,
             this.ToolsToolStripMenuItem,
@@ -282,7 +285,7 @@ namespace RemoteApp_Tool
             this.ToolsMenuStrip.Name = "ToolsMenuStrip";
             this.ToolsMenuStrip.Padding = new System.Windows.Forms.Padding(8, 4, 0, 4);
             this.ToolsMenuStrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.Professional;
-            this.ToolsMenuStrip.Size = new System.Drawing.Size(600, 27);
+            this.ToolsMenuStrip.Size = new System.Drawing.Size(600, 56);
             this.ToolsMenuStrip.TabIndex = 0;
             this.ToolsMenuStrip.Text = "menuStrip1";
             // 
@@ -294,13 +297,13 @@ namespace RemoteApp_Tool
             this.ToolStripSeparator2,
             this.ExitToolStripMenuItem});
             this.FileToolStripMenuItem.Name = "FileToolStripMenuItem";
-            this.FileToolStripMenuItem.Size = new System.Drawing.Size(59, 19);
+            this.FileToolStripMenuItem.Size = new System.Drawing.Size(139, 48);
             this.FileToolStripMenuItem.Text = "文件(&F)";
             // 
             // NewRemoteAppadvancedToolStripMenuItem
             // 
             this.NewRemoteAppadvancedToolStripMenuItem.Name = "NewRemoteAppadvancedToolStripMenuItem";
-            this.NewRemoteAppadvancedToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.NewRemoteAppadvancedToolStripMenuItem.Size = new System.Drawing.Size(504, 54);
             this.NewRemoteAppadvancedToolStripMenuItem.Text = "新建 RemoteApp (高级)";
             this.NewRemoteAppadvancedToolStripMenuItem.Click += new System.EventHandler(this.NewRemoteAppadvancedToolStripMenuItem_Click);
             // 
@@ -308,56 +311,67 @@ namespace RemoteApp_Tool
             // 
             this.DuplicateToolStripMenuItem.Enabled = false;
             this.DuplicateToolStripMenuItem.Name = "DuplicateToolStripMenuItem";
-            this.DuplicateToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.DuplicateToolStripMenuItem.Size = new System.Drawing.Size(504, 54);
             this.DuplicateToolStripMenuItem.Text = "复制";
             this.DuplicateToolStripMenuItem.Click += new System.EventHandler(this.DuplicateToolStripMenuItem_Click);
             // 
             // ToolStripSeparator2
             // 
             this.ToolStripSeparator2.Name = "ToolStripSeparator2";
-            this.ToolStripSeparator2.Size = new System.Drawing.Size(200, 6);
+            this.ToolStripSeparator2.Size = new System.Drawing.Size(501, 6);
             // 
             // ExitToolStripMenuItem
             // 
             this.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem";
-            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.ExitToolStripMenuItem.Size = new System.Drawing.Size(504, 54);
             this.ExitToolStripMenuItem.Text = "退出";
             this.ExitToolStripMenuItem.Click += new System.EventHandler(this.ExitToolStripMenuItem_Click);
             // 
             // ToolsToolStripMenuItem
             // 
+            // ToolsToolStripMenuItem
+            // 
+            this.HostStatusToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.HostStatusToolStripMenuItem.Name = "HostStatusToolStripMenuItem";
+            this.HostStatusToolStripMenuItem.Size = new System.Drawing.Size(568, 54);
+            this.HostStatusToolStripMenuItem.Text = "主机状态...";
+            this.HostStatusToolStripMenuItem.Click += new System.EventHandler(this.HostStatusToolStripMenuItem_Click);
+            // 
+            // HostOptionsToolStripMenuItem
+            // 
+            this.HostOptionsToolStripMenuItem.Name = "HostOptionsToolStripMenuItem";
+            this.HostOptionsToolStripMenuItem.Size = new System.Drawing.Size(568, 54);
+            this.HostOptionsToolStripMenuItem.Text = "主机选项...";
+            this.HostOptionsToolStripMenuItem.Click += new System.EventHandler(this.HostOptionsToolStripMenuItem_Click);
+            // 
+            // ToolsToolStripMenuItem
+            // 
             this.ToolsToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.HostStatusToolStripMenuItem,
             this.HostOptionsToolStripMenuItem,
             this.ToolStripSeparator3,
             this.RemoveUnusedFileTypeAssociationsToolStripMenuItem,
             this.BackupAllRemoteAppsToolStripMenuItem});
             this.ToolsToolStripMenuItem.Name = "ToolsToolStripMenuItem";
-            this.ToolsToolStripMenuItem.Size = new System.Drawing.Size(59, 19);
+            this.ToolsToolStripMenuItem.Size = new System.Drawing.Size(140, 48);
             this.ToolsToolStripMenuItem.Text = "工具(&T)";
-            // 
-            // HostOptionsToolStripMenuItem
-            // 
-            this.HostOptionsToolStripMenuItem.Name = "HostOptionsToolStripMenuItem";
-            this.HostOptionsToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
-            this.HostOptionsToolStripMenuItem.Text = "主机选项...";
-            this.HostOptionsToolStripMenuItem.Click += new System.EventHandler(this.HostOptionsToolStripMenuItem_Click);
             // 
             // ToolStripSeparator3
             // 
             this.ToolStripSeparator3.Name = "ToolStripSeparator3";
-            this.ToolStripSeparator3.Size = new System.Drawing.Size(227, 6);
+            this.ToolStripSeparator3.Size = new System.Drawing.Size(565, 6);
             // 
             // RemoveUnusedFileTypeAssociationsToolStripMenuItem
             // 
             this.RemoveUnusedFileTypeAssociationsToolStripMenuItem.Name = "RemoveUnusedFileTypeAssociationsToolStripMenuItem";
-            this.RemoveUnusedFileTypeAssociationsToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
+            this.RemoveUnusedFileTypeAssociationsToolStripMenuItem.Size = new System.Drawing.Size(568, 54);
             this.RemoveUnusedFileTypeAssociationsToolStripMenuItem.Text = "删除未使用的文件类型关联";
             this.RemoveUnusedFileTypeAssociationsToolStripMenuItem.Click += new System.EventHandler(this.RemoveUnusedFileTypeAssociationsToolStripMenuItem_Click);
             // 
             // BackupAllRemoteAppsToolStripMenuItem
             // 
             this.BackupAllRemoteAppsToolStripMenuItem.Name = "BackupAllRemoteAppsToolStripMenuItem";
-            this.BackupAllRemoteAppsToolStripMenuItem.Size = new System.Drawing.Size(230, 22);
+            this.BackupAllRemoteAppsToolStripMenuItem.Size = new System.Drawing.Size(568, 54);
             this.BackupAllRemoteAppsToolStripMenuItem.Text = "备份所有 RemoteApp";
             this.BackupAllRemoteAppsToolStripMenuItem.Click += new System.EventHandler(this.BackupAllRemoteAppsToolStripMenuItem_Click);
             // 
@@ -365,28 +379,29 @@ namespace RemoteApp_Tool
             // 
             this.HelpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.WebsiteToolStripMenuItem,
+            this.文档ToolStripMenuItem,
             this.ToolStripSeparator1,
             this.AboutToolStripMenuItem});
             this.HelpToolStripMenuItem.Name = "HelpToolStripMenuItem";
-            this.HelpToolStripMenuItem.Size = new System.Drawing.Size(62, 19);
+            this.HelpToolStripMenuItem.Size = new System.Drawing.Size(145, 48);
             this.HelpToolStripMenuItem.Text = "帮助(&H)";
             // 
             // WebsiteToolStripMenuItem
             // 
             this.WebsiteToolStripMenuItem.Name = "WebsiteToolStripMenuItem";
-            this.WebsiteToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.WebsiteToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
             this.WebsiteToolStripMenuItem.Text = "网站";
             this.WebsiteToolStripMenuItem.Click += new System.EventHandler(this.WebsiteToolStripMenuItem_Click);
             // 
             // ToolStripSeparator1
             // 
             this.ToolStripSeparator1.Name = "ToolStripSeparator1";
-            this.ToolStripSeparator1.Size = new System.Drawing.Size(97, 6);
+            this.ToolStripSeparator1.Size = new System.Drawing.Size(445, 6);
             // 
             // AboutToolStripMenuItem
             // 
             this.AboutToolStripMenuItem.Name = "AboutToolStripMenuItem";
-            this.AboutToolStripMenuItem.Size = new System.Drawing.Size(100, 22);
+            this.AboutToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
             this.AboutToolStripMenuItem.Text = "关于";
             this.AboutToolStripMenuItem.Click += new System.EventHandler(this.AboutToolStripMenuItem_Click);
             // 
@@ -406,7 +421,7 @@ namespace RemoteApp_Tool
             this.btnCopy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCopy.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.btnCopy.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(30)))), ((int)(((byte)(30)))));
-            this.btnCopy.ImageIndex = 4;
+            this.btnCopy.ImageIndex = 2;
             this.btnCopy.ImageList = this.SmallerIcons;
             this.btnCopy.Location = new System.Drawing.Point(196, 257);
             this.btnCopy.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
@@ -417,6 +432,13 @@ namespace RemoteApp_Tool
             this.btnCopy.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
             this.btnCopy.UseVisualStyleBackColor = false;
             this.btnCopy.Click += new System.EventHandler(this.btnCopy_Click);
+            // 
+            // 文档ToolStripMenuItem
+            // 
+            this.文档ToolStripMenuItem.Name = "文档ToolStripMenuItem";
+            this.文档ToolStripMenuItem.Size = new System.Drawing.Size(448, 54);
+            this.文档ToolStripMenuItem.Text = "文档";
+            this.文档ToolStripMenuItem.Click += new System.EventHandler(this.文档ToolStripMenuItem_Click);
             // 
             // RemoteAppMainWindow
             // 
@@ -475,6 +497,7 @@ namespace RemoteApp_Tool
         private System.Windows.Forms.ToolStripSeparator ToolStripSeparator2;
         private System.Windows.Forms.ToolStripMenuItem ExitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ToolsToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem HostStatusToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem HostOptionsToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator ToolStripSeparator3;
         private System.Windows.Forms.ToolStripMenuItem RemoveUnusedFileTypeAssociationsToolStripMenuItem;
@@ -485,5 +508,6 @@ namespace RemoteApp_Tool
         private System.Windows.Forms.ToolStripMenuItem AboutToolStripMenuItem;
         private System.Windows.Forms.SaveFileDialog BackupSaveFileDialog;
         private System.Windows.Forms.Button btnCopy;
+        private System.Windows.Forms.ToolStripMenuItem 文档ToolStripMenuItem;
     }
 }

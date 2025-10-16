@@ -158,7 +158,7 @@ namespace RemoteApp_Tool
             this.Label13.AutoSize = true;
             this.Label13.Location = new System.Drawing.Point(9, 53);
             this.Label13.Name = "Label13";
-            this.Label13.Size = new System.Drawing.Size(111, 15);
+            this.Label13.Size = new System.Drawing.Size(274, 41);
             this.Label13.TabIndex = 4;
             this.Label13.Text = "备用服务器地址：";
             // 
@@ -167,7 +167,7 @@ namespace RemoteApp_Tool
             this.Label14.AutoSize = true;
             this.Label14.Location = new System.Drawing.Point(361, 24);
             this.Label14.Name = "Label14";
-            this.Label14.Size = new System.Drawing.Size(46, 15);
+            this.Label14.Size = new System.Drawing.Size(114, 41);
             this.Label14.TabIndex = 2;
             this.Label14.Text = "端口：";
             // 
@@ -176,7 +176,7 @@ namespace RemoteApp_Tool
             this.Label12.AutoSize = true;
             this.Label12.Location = new System.Drawing.Point(9, 24);
             this.Label12.Name = "Label12";
-            this.Label12.Size = new System.Drawing.Size(85, 15);
+            this.Label12.Size = new System.Drawing.Size(210, 41);
             this.Label12.TabIndex = 0;
             this.Label12.Text = "服务器地址：";
             // 
@@ -184,7 +184,7 @@ namespace RemoteApp_Tool
             // 
             this.ServerPort.Location = new System.Drawing.Point(413, 21);
             this.ServerPort.Name = "ServerPort";
-            this.ServerPort.Size = new System.Drawing.Size(53, 23);
+            this.ServerPort.Size = new System.Drawing.Size(53, 47);
             this.ServerPort.TabIndex = 3;
             this.ServerPort.Text = "3389";
             this.ServerPort.TextChanged += new System.EventHandler(this.ServerPort_TextChanged);
@@ -193,7 +193,7 @@ namespace RemoteApp_Tool
             // 
             this.AltServerAddress.Location = new System.Drawing.Point(120, 50);
             this.AltServerAddress.Name = "AltServerAddress";
-            this.AltServerAddress.Size = new System.Drawing.Size(347, 23);
+            this.AltServerAddress.Size = new System.Drawing.Size(347, 47);
             this.AltServerAddress.TabIndex = 5;
             this.AltServerAddress.TextChanged += new System.EventHandler(this.AltServerAddress_TextChanged);
             // 
@@ -201,7 +201,7 @@ namespace RemoteApp_Tool
             // 
             this.ServerAddress.Location = new System.Drawing.Point(108, 21);
             this.ServerAddress.Name = "ServerAddress";
-            this.ServerAddress.Size = new System.Drawing.Size(250, 23);
+            this.ServerAddress.Size = new System.Drawing.Size(250, 47);
             this.ServerAddress.TabIndex = 1;
             this.ServerAddress.TextChanged += new System.EventHandler(this.ServerAddress_TextChanged);
             // 
@@ -211,7 +211,7 @@ namespace RemoteApp_Tool
             this.AttemptDirectCheckBox.Enabled = false;
             this.AttemptDirectCheckBox.Location = new System.Drawing.Point(12, 70);
             this.AttemptDirectCheckBox.Name = "AttemptDirectCheckBox";
-            this.AttemptDirectCheckBox.Size = new System.Drawing.Size(229, 19);
+            this.AttemptDirectCheckBox.Size = new System.Drawing.Size(559, 45);
             this.AttemptDirectCheckBox.TabIndex = 3;
             this.AttemptDirectCheckBox.Text = "仅在直接连接不成功时使用 RD 网关";
             this.AttemptDirectCheckBox.UseVisualStyleBackColor = true;
@@ -221,7 +221,7 @@ namespace RemoteApp_Tool
             this.UseRDGatewayCheckBox.AutoSize = true;
             this.UseRDGatewayCheckBox.Location = new System.Drawing.Point(12, 16);
             this.UseRDGatewayCheckBox.Name = "UseRDGatewayCheckBox";
-            this.UseRDGatewayCheckBox.Size = new System.Drawing.Size(99, 19);
+            this.UseRDGatewayCheckBox.Size = new System.Drawing.Size(239, 45);
             this.UseRDGatewayCheckBox.TabIndex = 0;
             this.UseRDGatewayCheckBox.Text = "使用 RD 网关";
             this.UseRDGatewayCheckBox.UseVisualStyleBackColor = true;
@@ -233,7 +233,7 @@ namespace RemoteApp_Tool
             this.RDGWLabel.Enabled = false;
             this.RDGWLabel.Location = new System.Drawing.Point(9, 44);
             this.RDGWLabel.Name = "RDGWLabel";
-            this.RDGWLabel.Size = new System.Drawing.Size(90, 15);
+            this.RDGWLabel.Size = new System.Drawing.Size(225, 41);
             this.RDGWLabel.TabIndex = 1;
             this.RDGWLabel.Text = "RD 网关地址：";
             // 
@@ -242,7 +242,7 @@ namespace RemoteApp_Tool
             this.GatewayAddress.Enabled = false;
             this.GatewayAddress.Location = new System.Drawing.Point(138, 41);
             this.GatewayAddress.Name = "GatewayAddress";
-            this.GatewayAddress.Size = new System.Drawing.Size(328, 23);
+            this.GatewayAddress.Size = new System.Drawing.Size(328, 47);
             this.GatewayAddress.TabIndex = 2;
             // 
             // MSIRadioButton
@@ -250,7 +250,7 @@ namespace RemoteApp_Tool
             this.MSIRadioButton.AutoSize = true;
             this.MSIRadioButton.Location = new System.Drawing.Point(12, 43);
             this.MSIRadioButton.Name = "MSIRadioButton";
-            this.MSIRadioButton.Size = new System.Drawing.Size(100, 19);
+            this.MSIRadioButton.Size = new System.Drawing.Size(242, 45);
             this.MSIRadioButton.TabIndex = 2;
             this.MSIRadioButton.TabStop = true;
             this.MSIRadioButton.Text = "MSI 安装程序";
@@ -262,7 +262,7 @@ namespace RemoteApp_Tool
             this.RDPRadioButton.Checked = true;
             this.RDPRadioButton.Location = new System.Drawing.Point(12, 18);
             this.RDPRadioButton.Name = "RDPRadioButton";
-            this.RDPRadioButton.Size = new System.Drawing.Size(76, 19);
+            this.RDPRadioButton.Size = new System.Drawing.Size(183, 45);
             this.RDPRadioButton.TabIndex = 1;
             this.RDPRadioButton.TabStop = true;
             this.RDPRadioButton.Text = "RDP 文件";
@@ -313,7 +313,7 @@ namespace RemoteApp_Tool
             this.ShortcutDesktopCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ShortcutDesktopCheckBox.Location = new System.Drawing.Point(118, 15);
             this.ShortcutDesktopCheckBox.Name = "ShortcutDesktopCheckBox";
-            this.ShortcutDesktopCheckBox.Size = new System.Drawing.Size(52, 19);
+            this.ShortcutDesktopCheckBox.Size = new System.Drawing.Size(120, 45);
             this.ShortcutDesktopCheckBox.TabIndex = 1;
             this.ShortcutDesktopCheckBox.Text = "桌面";
             this.ShortcutDesktopCheckBox.UseVisualStyleBackColor = true;
@@ -334,7 +334,7 @@ namespace RemoteApp_Tool
             this.PerMachineRadioButton.Checked = true;
             this.PerMachineRadioButton.Location = new System.Drawing.Point(3, 3);
             this.PerMachineRadioButton.Name = "PerMachineRadioButton";
-            this.PerMachineRadioButton.Size = new System.Drawing.Size(77, 19);
+            this.PerMachineRadioButton.Size = new System.Drawing.Size(183, 45);
             this.PerMachineRadioButton.TabIndex = 0;
             this.PerMachineRadioButton.TabStop = true;
             this.PerMachineRadioButton.Text = "每台机器";
@@ -345,7 +345,7 @@ namespace RemoteApp_Tool
             this.PerUserRadioButton.AutoSize = true;
             this.PerUserRadioButton.Location = new System.Drawing.Point(100, 3);
             this.PerUserRadioButton.Name = "PerUserRadioButton";
-            this.PerUserRadioButton.Size = new System.Drawing.Size(77, 19);
+            this.PerUserRadioButton.Size = new System.Drawing.Size(183, 45);
             this.PerUserRadioButton.TabIndex = 1;
             this.PerUserRadioButton.TabStop = true;
             this.PerUserRadioButton.Text = "每个用户";
@@ -356,7 +356,7 @@ namespace RemoteApp_Tool
             this.TopLevelRadioButton.AutoSize = true;
             this.TopLevelRadioButton.Location = new System.Drawing.Point(368, 14);
             this.TopLevelRadioButton.Name = "TopLevelRadioButton";
-            this.TopLevelRadioButton.Size = new System.Drawing.Size(51, 19);
+            this.TopLevelRadioButton.Size = new System.Drawing.Size(119, 45);
             this.TopLevelRadioButton.TabIndex = 4;
             this.TopLevelRadioButton.Text = "顶级";
             this.TopLevelRadioButton.UseVisualStyleBackColor = true;
@@ -367,7 +367,7 @@ namespace RemoteApp_Tool
             this.SubfolderRadioButton.Checked = true;
             this.SubfolderRadioButton.Location = new System.Drawing.Point(286, 14);
             this.SubfolderRadioButton.Name = "SubfolderRadioButton";
-            this.SubfolderRadioButton.Size = new System.Drawing.Size(77, 19);
+            this.SubfolderRadioButton.Size = new System.Drawing.Size(183, 45);
             this.SubfolderRadioButton.TabIndex = 3;
             this.SubfolderRadioButton.TabStop = true;
             this.SubfolderRadioButton.Text = "子文件夹";
@@ -380,7 +380,7 @@ namespace RemoteApp_Tool
             this.ShortcutStartCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ShortcutStartCheckBox.Location = new System.Drawing.Point(193, 15);
             this.ShortcutStartCheckBox.Name = "ShortcutStartCheckBox";
-            this.ShortcutStartCheckBox.Size = new System.Drawing.Size(91, 19);
+            this.ShortcutStartCheckBox.Size = new System.Drawing.Size(216, 45);
             this.ShortcutStartCheckBox.TabIndex = 2;
             this.ShortcutStartCheckBox.Text = "开始菜单：";
             this.ShortcutStartCheckBox.UseVisualStyleBackColor = true;
@@ -391,7 +391,7 @@ namespace RemoteApp_Tool
             this.Label3.AutoSize = true;
             this.Label3.Location = new System.Drawing.Point(291, 47);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(11, 15);
+            this.Label3.Size = new System.Drawing.Size(27, 41);
             this.Label3.TabIndex = 7;
             this.Label3.Text = ")";
             // 
@@ -400,7 +400,7 @@ namespace RemoteApp_Tool
             this.Label2.AutoSize = true;
             this.Label2.Location = new System.Drawing.Point(112, 46);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(11, 15);
+            this.Label2.Size = new System.Drawing.Size(27, 41);
             this.Label2.TabIndex = 4;
             this.Label2.Text = "(";
             // 
@@ -411,7 +411,7 @@ namespace RemoteApp_Tool
             this.ShortcutTagCheckBox.CheckState = System.Windows.Forms.CheckState.Checked;
             this.ShortcutTagCheckBox.Location = new System.Drawing.Point(15, 45);
             this.ShortcutTagCheckBox.Name = "ShortcutTagCheckBox";
-            this.ShortcutTagCheckBox.Size = new System.Drawing.Size(117, 19);
+            this.ShortcutTagCheckBox.Size = new System.Drawing.Size(280, 45);
             this.ShortcutTagCheckBox.TabIndex = 5;
             this.ShortcutTagCheckBox.Text = "快捷方式标签：";
             this.ShortcutTagCheckBox.UseVisualStyleBackColor = true;
@@ -421,7 +421,7 @@ namespace RemoteApp_Tool
             // 
             this.ShortcutTagTextBox.Location = new System.Drawing.Point(129, 43);
             this.ShortcutTagTextBox.Name = "ShortcutTagTextBox";
-            this.ShortcutTagTextBox.Size = new System.Drawing.Size(156, 23);
+            this.ShortcutTagTextBox.Size = new System.Drawing.Size(156, 47);
             this.ShortcutTagTextBox.TabIndex = 6;
             this.ShortcutTagTextBox.Text = "remote";
             // 
@@ -430,7 +430,7 @@ namespace RemoteApp_Tool
             this.Label4.AutoSize = true;
             this.Label4.Location = new System.Drawing.Point(9, 78);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(72, 15);
+            this.Label4.Size = new System.Drawing.Size(178, 41);
             this.Label4.TabIndex = 8;
             this.Label4.Text = "安装范围：";
             // 
@@ -439,7 +439,7 @@ namespace RemoteApp_Tool
             this.Label1.AutoSize = true;
             this.Label1.Location = new System.Drawing.Point(9, 16);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(111, 15);
+            this.Label1.Size = new System.Drawing.Size(274, 41);
             this.Label1.TabIndex = 0;
             this.Label1.Text = "放置快捷方式于：";
             // 
@@ -478,7 +478,7 @@ namespace RemoteApp_Tool
             this.FTACountLabel.AutoSize = true;
             this.FTACountLabel.Location = new System.Drawing.Point(163, 22);
             this.FTACountLabel.Name = "FTACountLabel";
-            this.FTACountLabel.Size = new System.Drawing.Size(52, 15);
+            this.FTACountLabel.Size = new System.Drawing.Size(130, 41);
             this.FTACountLabel.TabIndex = 1;
             this.FTACountLabel.Text = "计数：0";
             // 
@@ -487,7 +487,7 @@ namespace RemoteApp_Tool
             this.DisabledFTACheckBox.AutoSize = true;
             this.DisabledFTACheckBox.Location = new System.Drawing.Point(12, 21);
             this.DisabledFTACheckBox.Name = "DisabledFTACheckBox";
-            this.DisabledFTACheckBox.Size = new System.Drawing.Size(65, 19);
+            this.DisabledFTACheckBox.Size = new System.Drawing.Size(152, 45);
             this.DisabledFTACheckBox.TabIndex = 0;
             this.DisabledFTACheckBox.Text = "已禁用";
             this.DisabledFTACheckBox.UseVisualStyleBackColor = true;
@@ -498,7 +498,7 @@ namespace RemoteApp_Tool
             this.CheckBoxCreateSignedAndUnsigned.AutoSize = true;
             this.CheckBoxCreateSignedAndUnsigned.Location = new System.Drawing.Point(12, 42);
             this.CheckBoxCreateSignedAndUnsigned.Name = "CheckBoxCreateSignedAndUnsigned";
-            this.CheckBoxCreateSignedAndUnsigned.Size = new System.Drawing.Size(130, 19);
+            this.CheckBoxCreateSignedAndUnsigned.Size = new System.Drawing.Size(312, 45);
             this.CheckBoxCreateSignedAndUnsigned.TabIndex = 1;
             this.CheckBoxCreateSignedAndUnsigned.Text = "创建签名和未签名";
             this.CheckBoxCreateSignedAndUnsigned.UseVisualStyleBackColor = true;
@@ -511,7 +511,7 @@ namespace RemoteApp_Tool
             this.CertificateComboBox.FormattingEnabled = true;
             this.CertificateComboBox.Location = new System.Drawing.Point(280, 15);
             this.CertificateComboBox.Name = "CertificateComboBox";
-            this.CertificateComboBox.Size = new System.Drawing.Size(191, 23);
+            this.CertificateComboBox.Size = new System.Drawing.Size(191, 49);
             this.CertificateComboBox.TabIndex = 3;
             // 
             // CertificateLabel
@@ -519,7 +519,7 @@ namespace RemoteApp_Tool
             this.CertificateLabel.AutoSize = true;
             this.CertificateLabel.Location = new System.Drawing.Point(210, 18);
             this.CertificateLabel.Name = "CertificateLabel";
-            this.CertificateLabel.Size = new System.Drawing.Size(46, 15);
+            this.CertificateLabel.Size = new System.Drawing.Size(114, 41);
             this.CertificateLabel.TabIndex = 2;
             this.CertificateLabel.Text = "证书：";
             // 
@@ -528,7 +528,7 @@ namespace RemoteApp_Tool
             this.CheckBoxSignRDPEnabled.AutoSize = true;
             this.CheckBoxSignRDPEnabled.Location = new System.Drawing.Point(12, 17);
             this.CheckBoxSignRDPEnabled.Name = "CheckBoxSignRDPEnabled";
-            this.CheckBoxSignRDPEnabled.Size = new System.Drawing.Size(106, 19);
+            this.CheckBoxSignRDPEnabled.Size = new System.Drawing.Size(256, 45);
             this.CheckBoxSignRDPEnabled.TabIndex = 0;
             this.CheckBoxSignRDPEnabled.Text = "签署 RDP 文件";
             this.CheckBoxSignRDPEnabled.UseVisualStyleBackColor = true;
@@ -556,10 +556,10 @@ namespace RemoteApp_Tool
             this.HostTabPage.Controls.Add(this.AltServerAddress);
             this.HostTabPage.Controls.Add(this.Label12);
             this.HostTabPage.Controls.Add(this.ServerPort);
-            this.HostTabPage.Location = new System.Drawing.Point(4, 24);
+            this.HostTabPage.Location = new System.Drawing.Point(10, 58);
             this.HostTabPage.Name = "HostTabPage";
             this.HostTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.HostTabPage.Size = new System.Drawing.Size(484, 109);
+            this.HostTabPage.Size = new System.Drawing.Size(472, 69);
             this.HostTabPage.TabIndex = 0;
             this.HostTabPage.Text = "主机";
             this.HostTabPage.UseVisualStyleBackColor = true;
@@ -571,10 +571,10 @@ namespace RemoteApp_Tool
             this.OptionsTabPage.Controls.Add(this.RDPRadioButton);
             this.OptionsTabPage.Controls.Add(this.EditAfterSave);
             this.OptionsTabPage.Controls.Add(this.CreateRAWebIcon);
-            this.OptionsTabPage.Location = new System.Drawing.Point(4, 24);
+            this.OptionsTabPage.Location = new System.Drawing.Point(10, 58);
             this.OptionsTabPage.Name = "OptionsTabPage";
             this.OptionsTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.OptionsTabPage.Size = new System.Drawing.Size(484, 109);
+            this.OptionsTabPage.Size = new System.Drawing.Size(472, 69);
             this.OptionsTabPage.TabIndex = 1;
             this.OptionsTabPage.Text = "选项";
             this.OptionsTabPage.UseVisualStyleBackColor = true;
@@ -599,10 +599,10 @@ namespace RemoteApp_Tool
             this.GatewayTabPage.Controls.Add(this.UseRDGatewayCheckBox);
             this.GatewayTabPage.Controls.Add(this.GatewayAddress);
             this.GatewayTabPage.Controls.Add(this.RDGWLabel);
-            this.GatewayTabPage.Location = new System.Drawing.Point(4, 24);
+            this.GatewayTabPage.Location = new System.Drawing.Point(10, 58);
             this.GatewayTabPage.Name = "GatewayTabPage";
             this.GatewayTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.GatewayTabPage.Size = new System.Drawing.Size(484, 109);
+            this.GatewayTabPage.Size = new System.Drawing.Size(472, 69);
             this.GatewayTabPage.TabIndex = 2;
             this.GatewayTabPage.Text = "网关";
             this.GatewayTabPage.UseVisualStyleBackColor = true;
@@ -612,10 +612,10 @@ namespace RemoteApp_Tool
             this.FileTypesTabPage.Controls.Add(this.FTACountLabel);
             this.FileTypesTabPage.Controls.Add(this.FTAButton);
             this.FileTypesTabPage.Controls.Add(this.DisabledFTACheckBox);
-            this.FileTypesTabPage.Location = new System.Drawing.Point(4, 24);
+            this.FileTypesTabPage.Location = new System.Drawing.Point(10, 58);
             this.FileTypesTabPage.Name = "FileTypesTabPage";
             this.FileTypesTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.FileTypesTabPage.Size = new System.Drawing.Size(484, 109);
+            this.FileTypesTabPage.Size = new System.Drawing.Size(472, 69);
             this.FileTypesTabPage.TabIndex = 3;
             this.FileTypesTabPage.Text = "文件类型";
             this.FileTypesTabPage.UseVisualStyleBackColor = true;
@@ -633,10 +633,10 @@ namespace RemoteApp_Tool
             this.MSIOptionsTabPage.Controls.Add(this.Label3);
             this.MSIOptionsTabPage.Controls.Add(this.ShortcutTagCheckBox);
             this.MSIOptionsTabPage.Controls.Add(this.Label2);
-            this.MSIOptionsTabPage.Location = new System.Drawing.Point(4, 24);
+            this.MSIOptionsTabPage.Location = new System.Drawing.Point(10, 58);
             this.MSIOptionsTabPage.Name = "MSIOptionsTabPage";
             this.MSIOptionsTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.MSIOptionsTabPage.Size = new System.Drawing.Size(484, 109);
+            this.MSIOptionsTabPage.Size = new System.Drawing.Size(472, 69);
             this.MSIOptionsTabPage.TabIndex = 4;
             this.MSIOptionsTabPage.Text = "MSI 选项";
             this.MSIOptionsTabPage.UseVisualStyleBackColor = true;
@@ -648,10 +648,10 @@ namespace RemoteApp_Tool
             this.SigningTabPage.Controls.Add(this.CheckBoxSignRDPEnabled);
             this.SigningTabPage.Controls.Add(this.CertificateComboBox);
             this.SigningTabPage.Controls.Add(this.CertificateLabel);
-            this.SigningTabPage.Location = new System.Drawing.Point(4, 24);
+            this.SigningTabPage.Location = new System.Drawing.Point(10, 58);
             this.SigningTabPage.Name = "SigningTabPage";
             this.SigningTabPage.Padding = new System.Windows.Forms.Padding(3);
-            this.SigningTabPage.Size = new System.Drawing.Size(484, 109);
+            this.SigningTabPage.Size = new System.Drawing.Size(472, 69);
             this.SigningTabPage.TabIndex = 5;
             this.SigningTabPage.Text = "签名";
             this.SigningTabPage.UseVisualStyleBackColor = true;
@@ -670,7 +670,7 @@ namespace RemoteApp_Tool
             // RemoteAppCreateClientConnection
             // 
             this.AcceptButton = this.CreateButton;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.CancelButton = this.CancelEditButton;
@@ -682,6 +682,7 @@ namespace RemoteApp_Tool
             this.Controls.Add(this.CancelEditButton);
             this.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "RemoteAppCreateClientConnection";

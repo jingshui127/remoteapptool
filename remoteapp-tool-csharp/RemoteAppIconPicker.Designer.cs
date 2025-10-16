@@ -163,7 +163,7 @@ namespace RemoteAppTool
             this.IconPathTextBox.Location = new System.Drawing.Point(98, 12);
             this.IconPathTextBox.Name = "IconPathTextBox";
             this.IconPathTextBox.ReadOnly = true;
-            this.IconPathTextBox.Size = new System.Drawing.Size(267, 23);
+            this.IconPathTextBox.Size = new System.Drawing.Size(267, 47);
             this.IconPathTextBox.TabIndex = 1;
             // 
             // IconIndexTextBox
@@ -172,7 +172,7 @@ namespace RemoteAppTool
             this.IconIndexTextBox.Location = new System.Drawing.Point(420, 12);
             this.IconIndexTextBox.Name = "IconIndexTextBox";
             this.IconIndexTextBox.ReadOnly = true;
-            this.IconIndexTextBox.Size = new System.Drawing.Size(67, 23);
+            this.IconIndexTextBox.Size = new System.Drawing.Size(67, 47);
             this.IconIndexTextBox.TabIndex = 3;
             this.IconIndexTextBox.Visible = false;
             this.IconIndexTextBox.TextChanged += new System.EventHandler(this.IconIndexTextBox_TextChanged);
@@ -220,7 +220,7 @@ namespace RemoteAppTool
             this.FileTypeLabel.AutoSize = true;
             this.FileTypeLabel.Location = new System.Drawing.Point(12, 197);
             this.FileTypeLabel.Name = "FileTypeLabel";
-            this.FileTypeLabel.Size = new System.Drawing.Size(75, 15);
+            this.FileTypeLabel.Size = new System.Drawing.Size(185, 41);
             this.FileTypeLabel.TabIndex = 5;
             this.FileTypeLabel.Text = "文件类型：.";
             this.FileTypeLabel.Visible = false;
@@ -230,7 +230,7 @@ namespace RemoteAppTool
             this.FileTypeTextBox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.FileTypeTextBox.Location = new System.Drawing.Point(76, 194);
             this.FileTypeTextBox.Name = "FileTypeTextBox";
-            this.FileTypeTextBox.Size = new System.Drawing.Size(80, 23);
+            this.FileTypeTextBox.Size = new System.Drawing.Size(80, 47);
             this.FileTypeTextBox.TabIndex = 6;
             this.FileTypeTextBox.Visible = false;
             this.FileTypeTextBox.TextChanged += new System.EventHandler(this.FileTypeTextBox_TextChanged);
@@ -242,7 +242,7 @@ namespace RemoteAppTool
             this.IconIndexLabel.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.IconIndexLabel.Location = new System.Drawing.Point(373, 15);
             this.IconIndexLabel.Name = "IconIndexLabel";
-            this.IconIndexLabel.Size = new System.Drawing.Size(46, 15);
+            this.IconIndexLabel.Size = new System.Drawing.Size(114, 41);
             this.IconIndexLabel.TabIndex = 2;
             this.IconIndexLabel.Text = "索引：";
             this.IconIndexLabel.Visible = false;
@@ -250,7 +250,7 @@ namespace RemoteAppTool
             // RemoteAppIconPicker
             // 
             this.AcceptButton = this.OKButton;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.CancelButton = this.CancelEditButton;
@@ -265,6 +265,7 @@ namespace RemoteAppTool
             this.Controls.Add(this.FileTypeTextBox);
             this.Controls.Add(this.FileTypeLabel);
             this.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.MinimumSize = new System.Drawing.Size(515, 270);
